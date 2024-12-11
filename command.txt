@@ -1,0 +1,34 @@
+create:
+- git init
+- git clone
+
+make a change:
+- git add <file>
+- git add .
+- git commit -m "<message>"
+- git reset <file>
+- git reset --hard
+
+Observe:
+- git status
+- git diff  (menampilkan perubahan)
+- git show
+- git log (menampilkan daftar commit)
+
+Sync:
+- git push
+- git pull
+- git fetch
+- git remote add <remote_name> <url>
+- git remote -v (melihat url)
+- git remote set-url <remote_name> <new_url> (mengganti url)
+
+Branch:
+- git fetch
+- git checkout <file> (berpindah branch)
+- git branch (melihat branch yang tersedia)
+- git branch -D <branch> (menghapus branch)
+- git merge <branch> (menyatukan merge)
+- git tag -a <tag name> -m "<message>" (menandai tag)
+- git tag (melihat tag yang tersedia)
+- git tag -d "<tag name>" (menghapus tag)
